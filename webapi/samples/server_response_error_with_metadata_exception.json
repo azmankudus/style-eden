@@ -1,0 +1,18 @@
+{
+  "errors": [
+    {
+      "code": "DATABASE_TIMEOUT",
+      "message": "Internal server error connecting to the database.",
+      "detail": "Timeout trying to acquire connection from pool."
+    }
+  ],
+  "meta": {
+    "server_api_url": "/api/v1/data",
+    "server_request_timestamp": "2026-03-06T03:05:00.000+08:00",
+    "server_request_trace_id": "3b712f2b-3e80-402e-9b09-1c8efbb38a5d",
+    "server_response_timestamp": "2026-03-06T03:05:05.000+08:00",
+    "server_response_duration": "PT5S",
+    "server_response_http_status": "500 Internal Server Error",
+    "server_response_exception_stacktrace": "java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.\n\tat com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)\n\tat com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)\n\tat com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "errors": [
+    {
+      "code": "VALIDATION_FAILED",
+      "message": "Invalid input provided.",
+      "detail": "Email 'john.doe@example' is not a valid email address."
+    }
+  ],
+  "meta": {
+    "client_request_timestamp": "2026-03-06T03:01:00+08:00",
+    "client_trace_id": "f81d4fae-7dec-11d0-a765-00a0c91e6bf6",
+    "server_api_url": "/api/v1/users",
+    "server_request_timestamp": "2026-03-06T03:01:00.100+08:00",
+    "server_request_trace_id": "f81d4fae-7dec-11d0-a765-00a0c91e6bf6",
+    "server_response_timestamp": "2026-03-06T03:01:00.115+08:00",
+    "server_response_duration": "PT0.015S",
+    "server_response_http_status": "400 Bad Request"
+  }
+}

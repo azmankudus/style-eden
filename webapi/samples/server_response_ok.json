@@ -1,0 +1,8 @@
+{
+  "data": {
+    "id": 1001,
+    "status": "CREATED",
+    "username": "johndoe",
+    "email": "john.doe@example.com"
+  }
+}

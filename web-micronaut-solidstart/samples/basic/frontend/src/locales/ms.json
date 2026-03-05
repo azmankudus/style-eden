@@ -1,0 +1,10 @@
+{
+  "form.title": "Cipta Pengguna (Contoh Envelope)",
+  "form.username": "Nama Pengguna",
+  "form.email": "E-mel",
+  "form.submit": "Cipta Pengguna",
+  "form.submitting": "Sedang Dihantar...",
+  "form.success": "Data Berjaya:",
+  "form.error": "Respons Ralat:",
+  "form.meta": "Metadata Dijejak:"
+}

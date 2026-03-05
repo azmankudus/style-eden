@@ -1,0 +1,11 @@
+{
+  "data": {
+    "username": "johndoe",
+    "email": "john.doe@example.com",
+    "role": "MEMBER"
+  },
+  "meta": {
+    "client_request_timestamp": "2026-03-06T03:00:00+08:00",
+    "client_trace_id": "a81d4fae-7dec-11d0-a765-00a0c91e6bf6"
+  }
+}

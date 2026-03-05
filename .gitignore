@@ -1,0 +1,59 @@
+# Ignore everything by default
+*
+
+# Include root config and metadata files
+!/.gitignore
+!/.editorconfig
+!/build.gradle.kts
+!/settings.gradle.kts
+!/gradle.properties
+!/REQUIREMENTS.md
+!/README.md
+!/AGENTS.md
+!/PROMPTS.md
+!/SKILL.md
+!/LICENSE
+!/CONTRIBUTORS.md
+!/CODE_OF_CONDUCT.md
+!/SECURITY.md
+
+# Project folders
+!/webapi/
+!/webapi/**
+!/web-micronaut-solidstart/
+!/web-micronaut-solidstart/**
+
+# Build artifacts and caches within modules
+**/.gradle/
+**/.kotlin/
+**/.DS_Store/
+**/.output/
+**/.vinxi/
+**/.nitro/
+**/.settings/
+**/.classpath/
+**/.project/
+**/.factorypath/
+**/.idea/
+**/.vscode/
+**/bin/
+**/build/
+**/target/
+**/out/
+**/dist/
+**/node_modules/
+**/*.class
+**/*.jar
+**/*.lock
+**/*.log
+**/*.log.zip
+**/*.log.gz
+**/*.db
+**/*.tmp
+**/*.bkp
+**/*.bak
+
+# Gradle 
+!**/gradle/
+!**/gradle/**
+

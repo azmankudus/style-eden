@@ -1,0 +1,18 @@
+{
+  "data": {
+    "id": 1001,
+    "status": "CREATED",
+    "username": "johndoe",
+    "email": "john.doe@example.com"
+  },
+  "meta": {
+    "client_request_timestamp": "2026-03-06T03:00:00+08:00",
+    "client_trace_id": "a81d4fae-7dec-11d0-a765-00a0c91e6bf6",
+    "server_api_url": "/api/v1/users",
+    "server_request_timestamp": "2026-03-06T03:00:00.123+08:00",
+    "server_request_trace_id": "a81d4fae-7dec-11d0-a765-00a0c91e6bf6",
+    "server_response_timestamp": "2026-03-06T03:00:00.200+08:00",
+    "server_response_duration": "PT0.077S",
+    "server_response_http_status": "201 Created"
+  }
+}

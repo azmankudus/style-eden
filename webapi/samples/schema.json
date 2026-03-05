@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WebAPI Envelope Schema",
+  "description": "Standardized request and response envelope schema.",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": ["object", "array"],
+      "description": "The primary business payload for success responses or client requests."
+    },
+    "errors": {
+      "type": "array",
+      "description": "Array of errors when the operation fails.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": { "type": "string" },
+          "message": { "type": "string" },
+          "detail": { "type": "string" }
+        },
+        "required": ["code", "message"]
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "client_request_timestamp": { "type": "string", "format": "date-time" },
+        "client_trace_id": { "type": "string", "format": "uuid" },
+        "server_api_url": { "type": "string", "format": "uri" },
+        "server_request_timestamp": { "type": "string", "format": "date-time" },
+        "server_request_trace_id": { "type": "string", "format": "uuid" },
+        "server_response_timestamp": { "type": "string", "format": "date-time" },
+        "server_response_duration": { "type": "string" },
+        "server_response_http_status": { "type": "string" },
+        "server_response_exception_stacktrace": { "type": "string" }
+      }
+    }
+  },
+  "oneOf": [
+    { "required": ["data"] },
+    { "required": ["errors"] }
+  ]
+}

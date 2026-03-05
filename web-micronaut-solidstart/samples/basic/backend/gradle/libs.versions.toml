@@ -1,0 +1,23 @@
+[versions]
+plugin-micronaut = "4.6.2"
+plugin-shadow = "8.3.9"
+
+[libraries]
+micronaut-http-validation = { module = "io.micronaut:micronaut-http-validation" }
+micronaut-serde-processor = { module = "io.micronaut.serde:micronaut-serde-processor" }
+micronaut-serde-jackson = { module = "io.micronaut.serde:micronaut-serde-jackson" }
+micronaut-http-client = { module = "io.micronaut:micronaut-http-client" }
+logback-classic = { module = "ch.qos.logback:logback-classic" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher" }
+micronaut-openapi-processor = { module = "io.micronaut.openapi:micronaut-openapi" }
+micronaut-management = { module = "io.micronaut:micronaut-management" }
+micronaut-validation-processor = { module = "io.micronaut.validation:micronaut-validation-processor" }
+micronaut-validation = { module = "io.micronaut.validation:micronaut-validation" }
+micronaut-openapi-annotations = { module = "io.micronaut.openapi:micronaut-openapi-annotations" }
+reactor-core = { module = "io.projectreactor:reactor-core", version = "3.6.4" }
+
+
+[plugins]
+micronaut-application = { id = "io.micronaut.application", version.ref = "plugin-micronaut" }
+micronaut-aot = { id = "io.micronaut.aot", version.ref = "plugin-micronaut" }
+shadow = { id = "com.gradleup.shadow", version.ref = "plugin-shadow" }

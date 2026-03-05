@@ -1,0 +1,10 @@
+{
+  "form.title": "Create User (Envelope Demo)",
+  "form.username": "Username",
+  "form.email": "Email",
+  "form.submit": "Create Target User",
+  "form.submitting": "Submitting...",
+  "form.success": "Success Data:",
+  "form.error": "Error Response:",
+  "form.meta": "Metadata Tracked:"
+}

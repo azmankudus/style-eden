@@ -1,0 +1,9 @@
+{
+  "errors": [
+    {
+      "code": "VALIDATION_FAILED",
+      "message": "Invalid input provided.",
+      "detail": "Email 'john.doe@example' is not a valid email address."
+    }
+  ]
+}
